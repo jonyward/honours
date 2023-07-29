@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>{% block title %}{% endblock %}</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="default.asp">Home</a></li>
+            <li><a href="default.asp">About</a></li>
+            <li><a href="default.asp">Maps</a></li>
+        </ul>
+    </nav>
+    {% block content %}{% endblock %}
+</body>
+
+</html>
