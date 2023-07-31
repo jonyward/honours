@@ -10,6 +10,6 @@ How to correctly install this repo:
 2. Have most up to date version of pip installed
 3. Open a terminal at the root directory and use command "py -m pip install Django"
 4. Also run the command "pip install django-bootstrap-v5" to ensure the application styling works
-5. Run command "py manage.py runserver" and view the website on local port 8080
+5. Run command "py manage.py runserver" with the application open in the "honurs dependency and view the website on local port 8080 on an internet browser of your choice
 
-(If any errors occur, run command "py manage.py migrate" in the "crash_vis" dependency)
+(If any errors occur, run command "py manage.py migrate" and try run the application again)
