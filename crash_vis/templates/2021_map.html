@@ -2,6 +2,10 @@
 <html>
 <head>
     
+    {% load bootstrap5 %}
+    {% bootstrap_css %}
+    {% bootstrap_javascript %}
+
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
     
         <script>
@@ -9,7 +13,7 @@
             L_DISABLE_3D = false;
         </script>
     
-    <style>html, body {width: 75%;height: 75%;}</style>
+    <style>html, body {width: 100%;height: 100%;}</style>
     <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
     <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
@@ -25,9 +29,9 @@
             <style>
                 #map_84c475a8447d0895d1593509282454f3 {
                     position: relative;
-                    width: 100.0%;
-                    height: 100.0%;
-                    left: 0.0%;
+                    width: 75.0%;
+                    height: 70.0%;
+                    left: 12.5%;
                     top: 0.0%;
                 }
                 .leaflet-container { font-size: 1rem; }
