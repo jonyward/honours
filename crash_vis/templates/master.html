@@ -4,12 +4,12 @@
 <head>
 
     {% load static %}
-    <link rel="icon" type="image/png" href="{% static 'favicon-16x16.png' %}" />
-    <title>{% block title %}{% endblock %}</title>
-
     {% load bootstrap5 %}
     {% bootstrap_css %}
     {% bootstrap_javascript %}
+
+    <link rel="icon" type="image/png" href="{% static 'favicon-32x32.png' %}" />
+    <title>{% block title %}{% endblock %}</title>
 
 </head>
 <body>
