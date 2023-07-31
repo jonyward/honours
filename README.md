@@ -6,9 +6,10 @@ The Folium maps were generated and exported into HTML components, and will be sa
 
 How to correctly install this repo:
 
-1. Clone main branch
-2. Open a terminal at the root directory and use command "py -m pip install Django"
-3. Also run the command "pip install django-bootstrap-v5" to ensure the application styling works
-4. Run command "py manage.py runserver" and view the website on local port 8080
+1. Clone main branch#
+2. Have most up to date version of pip installed
+3. Open a terminal at the root directory and use command "py -m pip install Django"
+4. Also run the command "pip install django-bootstrap-v5" to ensure the application styling works
+5. Run command "py manage.py runserver" and view the website on local port 8080
 
 (If any errors occur, run command "py manage.py migrate" in the "crash_vis" dependency)
