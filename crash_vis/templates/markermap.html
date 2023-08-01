@@ -5,10 +5,13 @@
 {% endblock %}
 
 {% block content %}
-    <h1>Marker Map</h1>
     <br>
+    <h2 class="text-center">Marker Map</h2>
     <br>
+    <p class="text-center">
+        This interactive map shows every road traffic accident which was recorded on UK roads in 2021.<br> 
+        The data has been clustered together to allow for ease of use when navigating the map, while also showing density of accidents in specific areas.
+    </p>
     <br>
     {% include "2021_map.html" %}
-    <br>
 {% endblock %}
