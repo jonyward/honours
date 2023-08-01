@@ -5,12 +5,17 @@
 {% endblock %}
 
 {% block content %}
+    <br><br><br><br><br><br><br>
+    <h1 class="text-center">Welcome to my Honours Project!</h1>
     <br>
-    <h1 class="text-center">Home</h1>
     <br>
     <p class="text-center">
-        This interactive map shows every road traffic accident which was recorded on UK roads in 2021.<br> 
-        The data has been clustered together to allow for ease of use when navigating the map, while also showing density of accidents in specific areas.
+        This application takes data collected by the UK goverment, available <a href="https://www.data.gov.uk/dataset/cb7ae6f0-4be6-4935-9277-47e5ce24a11f/road-safety-data">here</a>, and visualises it through a leaflet.js map<br> making the location of all accidents recorded in 
+        2021 on UK roads, as well as the density of accidents in specific.<br><br>
+        The goal of this website is to effectively visualise this data to better inform people on roads <br>and locations which could be potentially dangerous to drive on based on
+        previous accidents, while also being easy to use and accessible through a website. <br><br>
+        Two interactable maps are available, one which shows indiviual locations of accidents, and interactable clusters of markers,<br> with another
+        map available showing a HeatMap of all crashes, giving a better idea of conveying the density of accidents in<br> specific areas.
     </p>
     <br>
 {% endblock %}
