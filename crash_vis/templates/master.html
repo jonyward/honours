@@ -13,7 +13,8 @@
 
 </head>
 <body>
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-center">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <div class=" collapse navbar-collapse justify-content-center" id="navbarCenteredExample">
         <ul class="navbar-nav">
             <div class="dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -31,6 +32,7 @@
             </li>
             <li class="nav-item"><a class="nav-link" href='about'>About</a></li>
         </ul>
+    </div>
     </nav>
     {% block content %}{% endblock %}
 </body>
