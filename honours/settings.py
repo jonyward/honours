@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     'bootstrap5',
 ]
 
-STATIC_URL = "static/"
+STATIC_URL = "/static/"
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
