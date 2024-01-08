@@ -1,8 +1,8 @@
 # Honours Project
 
-My 4th Year honours project which uses Folium to effectively visualise and plot UK road traffic accidents during 2021, implemented through a fast and responsive Django web application
+Welcome to my 4th Year honours project. This application utilizes Folium to effectively visualise and plot UK road traffic accidents which occured during 2021, implemented through a fast and responsive Django web application.
 
-The Folium maps were generated and exported into HTML components, and will be saved in a seperate dependency as jupytr notebooks, including the original and prepared data used to generate the map components
+The Folium maps were generated and exported into HTML components, and will be saved in a seperate dependency as jupytr notebooks, including the original and prepared data used to generate the map components.
 
 How to correctly install this repo:
 
