@@ -5,9 +5,13 @@ Honours Project - About Us
 {% endblock %}
 
 {% block content %}
-<br><br><br><br><br><br><br>
+<br><br><br>
 <h1 class="text-center">Testing something</h1><br><br>
 <div class="container-sm">
-    <p class="text-center">Testing proper implementation of maps through proper database and django view rather than generating<br> map outside of web application.</p>
+    <p class="text-center">Testing proper implementation of maps through proper database and django view rather than generating<br> map outside of web application.</p><br>
+
+{{ map|safe }}
+
 </div>
+<br><br>
 {% endblock %}
