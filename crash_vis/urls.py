@@ -6,4 +6,5 @@ urlpatterns = [
     path('about', views.about, name='about'),
     path('markermap', views.markermap, name='markermap'),
     path('heatmap', views.heatmap, name='heatmap'),
+    path('testing', views.testing, name='testing')
 ]

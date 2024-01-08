@@ -17,4 +17,10 @@ def heatmap(request):
     template = loader.get_template('heatmap.html')
     return HttpResponse(template.render())
 
+def testing(request):
+    template = loader.get_template('testing.html')
+    return HttpResponse(template.render())
+
+
+
 # Create your views here.
