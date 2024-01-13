@@ -1,6 +1,6 @@
 {% extends "master.html" %}
 
-<!-- Template which uses "{% include %}" Django tag to render a template within a template, simly for the purposes of readability -->
+<!-- Template which uses include Django tag to render a template within a template, simly for the purposes of readability -->
 
 {% block title %}
     Honours Project - Marker Map
@@ -10,7 +10,9 @@
     <br>
     <h2 class="text-center">Marker Map</h2>
     <br>
-        {% include "2021_map.html" %}
+    <div class="container-sm">
+        {{ markermap|safe }}
+    </div>
     <br>
     <div class="container-md">
         <p class="text-center">
