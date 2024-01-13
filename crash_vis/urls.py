@@ -8,3 +8,5 @@ urlpatterns = [
     path('heatmap', views.heatmap, name='heatmap'),
     path('testing', views.testing, name='testing')
 ]
+
+#Sets URLs for application routing

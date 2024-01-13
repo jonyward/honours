@@ -3,4 +3,4 @@ from .models import *
 
 admin.site.register(Crashes)
 
-# Register your models here.
+# Allows the model containing data to be viewed and edited in the Admin panel

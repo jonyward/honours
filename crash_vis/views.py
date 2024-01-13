@@ -32,4 +32,4 @@ def testing(request):
     context = {'map': map._repr_html_()}
     return render(request, 'testing.html', context)
 
-# Create your views here.
+#Views responsible for what templates are rendered, and map functionality
