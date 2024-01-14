@@ -1,10 +1,10 @@
 # Honours Project
 [![Python Version](https://img.shields.io/badge/python-3.12.1-brightgreen.svg)](https://python.org)
 [![PyPI - Django Version](https://img.shields.io/pypi/djversions/djangorestframework.svg)](https://djangoproject.com)
-[![Folium](https://img.shields.io/pypi/v/folium.svg)](https://pypi.org/project/folium/)
+[![PyPI - Folium Version](https://img.shields.io/pypi/v/folium.svg)](https://pypi.org/project/folium/)
 
 
-Welcome to my 4th Year honours project. This application utilizes Folium to effectively visualise and plot UK road traffic accidents which occured during 2021, implemented through a fast and responsive Django web application.
+Welcome to my 4th Year Honours Project. This application utilizes Folium to effectively visualise and plot UK road traffic accidents which occured during 2021, implemented through a Django web application.
 
 ## Running the project:
 
