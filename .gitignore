@@ -1,4 +1,5 @@
 .env
+.venv
 2021_data.csv
 sqlite3.exe
 /crash_vis/__pycache__
