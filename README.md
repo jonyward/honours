@@ -16,19 +16,21 @@ git clone https://github.com/jonyward/honours
 
 2. Have most up to date version of pip installed
 
-3. Navigate to the dependency named "honours", Open a terminal and use the command:
+3. Open a virtual environment and activate it, as to make sure the application is using the correct dependency versions used during development
+
+4. Navigate to the dependency named "honours", Open a terminal and use the command:
 
 ```
 pip install -r requirements.txt
 ```
 
-4. Run the application using the command:
+5. Run the application using the command:
 
 ```
 py manage.py runserver
 ```
 
-5. If there are any problems, migrate the project using the following command and attempt to run the application again:
+6. If there are any problems, migrate the project using the following command and attempt to run the application again:
 
 ```
 py manage.py migrate
